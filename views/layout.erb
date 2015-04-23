@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>
-
+			<%= @title %>
 		</title>
 
 		<meta charset="UTF-8">
@@ -18,12 +18,16 @@
 	<body>
 		<h1 id='tag_line'> Our gym is you best partner!</h1>
 		<div class="nav_bar">
+			<!-- hash for nav_bar -->
 			<% navigation = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join"} %>
+			<!--loop for nav_bar -->
 			<% navigation.each do |key, value| %>
 			<nav>
 				<ul>
 					<li>
+						<!-- nav_bar linking with "value" -->
 						<a href=<%= value %>>
+							<!-- nav_bar naming with "key" -->
 							<%= key %>
 						</a>
 					</li>
