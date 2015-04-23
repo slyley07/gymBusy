@@ -1,0 +1,57 @@
+.logo {
+	width: 200px;
+	z-index: 10;
+	background-color: #C42A22;
+	float: left;
+	margin-left: 14em;
+	padding: 0.3em;
+	border-radius: 6em 6em 0 6em;
+	margin-top: 0;
+}
+
+#tag_line {
+	display: inline-block;
+	margin: 2.7em 0 0.33em 0.3em;
+	font-family: arial;
+}
+
+.nav_bar {
+	margin: 0 auto;
+	width: 112em;
+}
+
+.scary {
+	width: 74em;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav {
+	font-family: arial;
+	margin: 0 18em;
+	background-color: #C42A22;
+	border-radius: 4em;
+	/*text-align: center;*/
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 32em;
+	font-weight: bold;
+	font-size: 2em;
+	z-index: 2;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0.64em 0.5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #780600;
+	padding: 0.55em;
+}
