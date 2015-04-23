@@ -1,9 +1,15 @@
+body {
+	background-image: url("/images/bricks.jpg");
+	background-size: 120em 100em;
+	background-repeat: no-repeat;
+}
+
 .logo {
 	width: 200px;
 	z-index: 10;
 	background-color: #C42A22;
 	float: left;
-	margin-left: 14em;
+	margin-left: 13em;
 	padding: 0.3em;
 	border-radius: 6em 6em 0 6em;
 	margin-top: 0;
@@ -11,8 +17,14 @@
 
 #tag_line {
 	display: inline-block;
-	margin: 2.7em 0 0.33em 0.3em;
+	margin: 2.9em 0 0 0;
 	font-family: arial;
+	padding: 0.1em 0.5em 0 0.5em;
+	border-radius: 0 0.5em 0 0;
+	z-index: -1;
+	color: #DD3F48;
+	background-color: #780600;
+
 }
 
 .nav_bar {
@@ -100,3 +112,10 @@ input[type="submit"] {
 	border: 0;
 }
 
+.about {
+	background-color: rgba(225, 225, 225, 0.8);
+	/*border-radius: 0 0 2em 2em;*/
+	padding: 2em;
+	margin: 0 27em;
+	width: 58em;
+}
