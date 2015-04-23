@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+
+		</title>
+
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="/css/">
+
+		<script type="text/javascript" src="/jquery-2.1.3.js"></script>
+		
+		<script type="text/javascript" src="/javascript/"></script>
+
+	</head>
+
+	<body>
+		<h1 id='tag_line'> Our gym is you best partner!</h1>
+		<div class="nav_bar">
+			<% navigation = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join"} %>
+			<% navigation.each do |key, value| %>
+			<nav>
+				<ul>
+					<li>
+						<a href=<%= value %>>
+							<%= key %>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<% end %>
+		</div>
+
+		<%= yield %>
+
+		<footer>
+			<a href="https://www.facebook.com">
+				Visit us at Facebook!
+			</a>
+		</footer>
+	</body>
+<html>
