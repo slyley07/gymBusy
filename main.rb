@@ -16,3 +16,8 @@ end
 get '/join_us' do
  erb :join
 end
+
+get '/thanks' do
+	erb :thanks
+end
+
