@@ -18,7 +18,7 @@ end
 
 get '/join' do
 	@title="Join Us!"
- erb :join_us
+ 	erb :join_us
 end
 
 get '/thanks' do
