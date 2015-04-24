@@ -1,7 +1,7 @@
 
 body{
 	margin:0px;
-	background-image: url("/images/images/evening.jpg");
+	background-image: url("/images/images/roof.jpg");
 	background-size: 120em 110em;
 	background-repeat: no-repeat;
 	width: 100%
@@ -60,32 +60,37 @@ footer{
 	margin-left:40px;
 }
 
+.runner {
+	max-width: 960px;
+	margin: 10px auto 0 auto;
+	height: 153px;
+}
+
 .logo {
-	width: 200px;
+	width: 15%;
 	z-index: 10;
 	background-color: #C42A22;
-	float: left;
-	margin-left: 13em;
 	padding: 0.3em;
 	border-radius: 6em 6em 0 6em;
 	margin-top: 0;
+	float: left;
 }
 
 #tag_line {
 	display: inline-block;
-	margin: 2.9em 0 0 0;
+	margin: 70px 0 0 0;
 	font-family: arial;
-	padding: 0.12em 0.5em 0 0.5em;
+	padding: 1px 0.5em 0 0.5em;
 	border-radius: 0 0.5em 0 0;
 	z-index: -1;
 	color: #B5B5B5;
 	background-color: #780600;
-
+	float: left;
 }
 
 .nav_bar {
-	margin: 0 auto;
-	width: 112em;
+	background-color: #C42A22;
+	float: left;
 }
 
 .scary {
@@ -97,31 +102,36 @@ footer{
 
 nav {
 	font-family: arial;
-	margin: 0 18em;
 	background-color: #C42A22;
 	border-radius: 4em;
 	/*text-align: center;*/
+	max-width: 960px;
 }
 
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 32em;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.5em;
 	z-index: 2;
+	max-width: 960px;
+	margin-bottom: 0;
+	background-color: #C42A22;
 }
 
 nav ul li {
 	display: inline-block;
-	padding: 0.64em 0.5em;
+	padding: 9px 27px;
+	float: left;
+	background-color: #C42A22;
 }
 
 nav ul li a {
 	text-decoration: none;
 	color: #780600;
-	padding: 0.55em;
+	padding: 9px 24px;
+	max-width: 35%
 }
 
 /*.active {
@@ -132,22 +142,22 @@ nav ul li a {
 
 .home {
 	background-image: url("/images/images_home/main_home.jpg");
-	width: 75em;
-	margin: 0 20em;
+	width: 835px;
+	margin: 0 auto;
 	height: 54em;
+	background-size: 156%
 }
 
 .form_trial {
 	width: 14em;
-	font-size: 2em;
+	font-size: 1.5em;
 	background-repeat: no-repeat;
 	background-color: rgba(189, 183, 183, 0.4);
 	padding: 1em;
-	position: relative;
-	top: 1em;
-	left: 2em;
 	font-family: arial;
 	border-radius: 2em;
+	float: left;
+	margin: 15px 0 0 15px;
 }
 
 .form_trial h1 {
@@ -180,4 +190,14 @@ input[type="submit"] {
 	padding: 2em;
 	margin: 0 27em;
 	width: 58em;
+}
+
+.join_button {
+	float: left;
+	width: 214px;
+	margin-left: 69px;
+	margin-top: 355px;
+	background-color: rgba(189, 183, 183, 0.4);
+	border-radius: 2em;
+	padding: 1em;
 }
