@@ -1,9 +1,10 @@
 
 body{
 	margin:0px;
-	background-image: url("/images/bricks.jpg");
+	background-image: url("/images/images/evening.jpg");
 	background-size: 120em 110em;
 	background-repeat: no-repeat;
+	width: 100%
 }
 
 footer{
@@ -73,7 +74,7 @@ footer{
 	display: inline-block;
 	margin: 2.9em 0 0 0;
 	font-family: arial;
-	padding: 0.1em 0.5em 0 0.5em;
+	padding: 0.12em 0.5em 0 0.5em;
 	border-radius: 0 0.5em 0 0;
 	z-index: -1;
 	color: #B5B5B5;
@@ -121,6 +122,12 @@ nav ul li a {
 	color: #780600;
 	padding: 0.55em;
 }
+
+/*.active {
+	background-color: #A0150E;
+	border-radius: 2em;
+	color: #FFFFFF;
+}*/
 
 .home {
 	background-image: url("/images/images_home/main_home.jpg");
