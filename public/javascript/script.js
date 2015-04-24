@@ -16,7 +16,9 @@ $(document).ready(function() {
 					borderRadius: 0
 				}, 500)
 		})
+	$("")
 })
+
 
 
 // $(".finn").click(function(){
@@ -77,6 +79,3 @@ $(document).ready(function() {
 // 			$("body").removeClass("noscroll")
 
 // 	})
-
-
-
