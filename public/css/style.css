@@ -1,71 +1,11 @@
-
 body{
 	margin:0px;
-	background-image: url("/images/images/roof.jpg");
+	background-image: url("/images/images/building.jpg");
 	background-size: 120em 110em;
 	background-repeat: no-repeat;
 	width: 100%;	
 	padding: 0;
 }
-
-/*footer{
-	margin:0 auto;
-	text-align: left;
-}*/
-
-
-
-/*>>>>>>>>>>>>>>>>>Footer code  ------------> Starts*/
-
-#footer{
-	background-color: #03324C;
- 	width: 100%;
- 	height: 400px; 
- 	bottom: 0;
- 	display: block;
- 	float: left; 
- 	margin-top: 10px;
-}
-
-#footer-wrapper{
-	width: 100%;
-	margin: 20px;
-	text-align: left;
-/*	padding-left: 100px;*/
-}
-
-#footer ul{
-	list-style-type: none; 
-	padding: 0;
-	margin: 0;
-}
-
-#footer ul li{
-	padding-bottom: 10px;
-	display: inline-block;
-}
-
-#footer ul li:hover{
-	background-color: #333;
-}
-
-#footer ul li a{
-	color: #CCC; 
-	display: block; 
-	text-decoration: none;
-}
-
-#footer ul li a:visited{
-	color: #CCC; 
-	display: block; 
-	text-decoration: none;
-}
-
-.icons{
-	margin-left:40px;
-}
-
-/*>>>>>>>>>>>>>>>>>Footer code  ------------> Ends*/
 
 
 /*>>>>>>>>>>>>>>>>>NavBar code  ------------> Starts*/
@@ -146,6 +86,60 @@ nav ul li a {
 
 /*>>>>>>>>>>>>>>>>>NavBar code  ------------> Ends*/
 
+
+/*>>>>>>>>>>>>>>>>>Footer code  ------------> Starts*/
+
+#footer{
+	background-color: #03324C;
+ 	width: 100%;
+ 	height: 400px; 
+ 	bottom: 0;
+ 	display: block;
+ 	float: left; 
+ 	margin-top: 10px;
+}
+
+#footer-wrapper{
+	width: 100%;
+	margin: 20px;
+	text-align: left;
+/*	padding-left: 100px;*/
+}
+
+#footer ul{
+	list-style-type: none; 
+	padding: 0;
+	margin: 0;
+}
+
+#footer ul li{
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+#footer ul li:hover{
+	background-color: #333;
+}
+
+#footer ul li a{
+	color: #CCC; 
+	display: block; 
+	text-decoration: none;
+}
+
+#footer ul li a:visited{
+	color: #CCC; 
+	display: block; 
+	text-decoration: none;
+}
+
+.icons{
+	margin-left:40px;
+}
+
+/*>>>>>>>>>>>>>>>>>Footer code  ------------> Ends*/
+
+
 /*>>>>>>>>>>>>>>>>>Home Page code  ------------> Starts*/
 
 .home {
@@ -224,7 +218,7 @@ nav ul li a {
 	/*border-radius: 0 0 2em 2em;*/
 	padding: 2em;
 	margin: 0 auto;
-	width: 835px;
+	width: 750px;
 }
 
 /*>>>>>>>>>>>>>>>>>About Page code  ------------> Ends*/
