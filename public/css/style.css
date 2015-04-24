@@ -1,7 +1,48 @@
-#div_form_join{
-	background-color: #C42A22;
+
+body{
+	margin:0px;
 }
-#form_join{
-	font-family: Arial;
-	background-color:#FD7F78 ;
+footer{
+	margin:0 auto;
+	text-align: left;
+}
+#footer{
+	background-color: black;
+ 	width: 100%;
+ 	height: 400px; 
+ 	bottom: 0;
+ 	display: block;
+ 	float: left; 
+}
+#footer-wrapper{
+	width: 100%;
+	margin: 20px;
+	text-align: left;
+/*	padding-left: 100px;*/
+}
+#footer ul{
+	list-style-type: none; 
+	padding: 0;
+	margin: 0;
+}
+#footer ul li{
+	padding-bottom: 10px;
+	display: inline-block;
+ }
+
+#footer ul li:hover{
+	background-color: #333;
+}
+#footer ul li a{
+	color: #CCC; 
+	display: block; 
+	text-decoration: none;
+}
+#footer ul li a:visited{
+	color: #CCC; 
+	display: block; 
+	text-decoration: none;
+}
+.icons{
+	margin-left:40px;
 }
