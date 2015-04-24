@@ -72,6 +72,25 @@
 					<!-- wrapper ends-->
 					
 					<div class="icons">
+						<h3>
+							Navigation
+						</h3>
+
+						<div class="foot_bar">
+								<ul>
+									<!--loop for footer nav -->
+									<% @foot_nav.each do |key, value| %>
+									<li>
+										<!-- footer nav linking with "value" -->
+										<a href=<%= value %>>
+											<!-- footer nav naming with "key" -->
+											<%= key %>
+										</a>
+									</li>
+									<% end %>
+								</ul>
+						</div>
+
            	<a href="https://twitter.com/" target="_blank">
            		<img src="https://www.nasa.gov/sites/default/files/images/twitter-icon.png" width="48" height="48" alt="Twitter" />
            	</a>
