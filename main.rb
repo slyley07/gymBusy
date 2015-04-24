@@ -19,7 +19,7 @@ get '/classes' do
 	erb :classes
 end
 
-get '/join' do
+get '/join_us' do
 	@title="Join Us!"
 	@nav = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join"}
  		erb :join_us

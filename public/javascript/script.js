@@ -17,3 +17,9 @@ $(document).ready(function() {
 				}, 500)
 		})
 })
+
+var winHeight = $(window).height();
+
+var winWidth = $(window).width();
+
+var winSize = winWidth + "x" + winHeight
