@@ -207,11 +207,11 @@ footer {
 	text-align: center;
 }
 
-input[type="text"] {
+/*input[type="text"] {
 	font-size: 1em;
-}
+}*/
 
-input[type="submit"] {
+.home_button {
 	font-size: 1em;
 	border-radius: 1em;
 	background-color: #C42A22;
@@ -295,14 +295,14 @@ span{
 	width: 340px;
 	display:inline-block;
 	float:right;	
-	margin: 0;
+	/*margin: 0;*/
 	text-align: center;
 	padding-top: 20px;
 }
 #form_join_two input {
 	display:inline-block;
 	float:right;	
-	margin: 0;
+	/*margin: 0;*/
 	text-align: center;
 	width: 360px;
 	padding-top: 20px;
@@ -316,14 +316,28 @@ textarea{
 .btn{
 	background-color: #780600;
 	border-radius: 10px;
-	border-color: #780600;
+	/*border-color: #780600;*/
 	font-size: 27px;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 	font-family: Arial;
 	color:#FBA7AB;
 	line-height: 1em;
+	width: 100%;
+	margin: 10px auto;
+	padding: 15px;
+	text-align: center;
+	border: none;
+	/*color: #03324C;*/
+}
 }
 
+.join_button {
+	width: 100%;
+	margin: 10px auto;
+	padding: 15px;
+	text-align: center;
+	color: #03324C;
+}
 
 
 
