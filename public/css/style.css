@@ -1,6 +1,5 @@
 
 body{
-
 	margin:0px;
 	background-image: url("/images/images/roof.jpg");
 	background-size: 120em 110em;
@@ -9,45 +8,14 @@ body{
 	padding: 0;
 }
 
-footer{
+/*footer{
 	margin:0 auto;
 	text-align: left;
-}
- 
-#classes_one {
-  display: block;
-  text-align: center;
-  color: #262a2b;
-  padding: 60px 0px 50px;
-  text-transform: uppercase;
-}
-div #classes_two {
-  display: block;
-  text-align: center;
-  color: #262a2b;
-  padding: 60px 0px 50px;
-  text-transform: uppercase;
-}
-.ul_figures li{
-	display: inline-block;
-	margin:30px;
-	width: 300px;
-	font-family: Arial;
-}
-#classes_wrapper{
-	text-align: center;
-	margin: 0 auto;
-}
-#h1_classes{
-	color:red;
-	font-size: 40px;
-	font-family:Arial;
-}
-.img_classes{
-		border-radius: 100px;
-}
+}*/
 
-/*>>>>Classe code ---- > Ends */
+
+
+/*>>>>>>>>>>>>>>>>>Footer code  ------------> Starts*/
 
 #footer{
 	background-color: #03324C;
@@ -56,7 +24,7 @@ div #classes_two {
  	bottom: 0;
  	display: block;
  	float: left; 
- 	margin-top: 10px,
+ 	margin-top: 10px;
 }
 
 #footer-wrapper{
@@ -96,6 +64,11 @@ div #classes_two {
 .icons{
 	margin-left:40px;
 }
+
+/*>>>>>>>>>>>>>>>>>Footer code  ------------> Ends*/
+
+
+/*>>>>>>>>>>>>>>>>>NavBar code  ------------> Starts*/
 
 .runner {
 	max-width: 960px;
@@ -171,11 +144,9 @@ nav ul li a {
 	max-width: 35%
 }
 
-/*.active {
-	background-color: #A0150E;
-	border-radius: 2em;
-	color: #FFFFFF;
-}*/
+/*>>>>>>>>>>>>>>>>>NavBar code  ------------> Ends*/
+
+/*>>>>>>>>>>>>>>>>>Home Page code  ------------> Starts*/
 
 .home {
 	background-image: url("/images/images_home/main_home.jpg");
@@ -201,15 +172,15 @@ nav ul li a {
 	margin: 0;
 }
 
-footer {
+/*footer {
 	clear:both;
 	width: 100%;
 	text-align: center;
-}
-
-/*input[type="text"] {
-	font-size: 1em;
 }*/
+
+.home_input {
+	font-size: 1em;
+} 
 
 .home_button {
 	font-size: 1em;
@@ -221,38 +192,108 @@ footer {
 	border: 0;
 }
 
+.join_button {
+	float: left;
+	width: 240px;
+	margin-left: 69px;
+	margin-top: 260px;
+	background-color: rgba(189, 183, 183, 0.4);
+	border-radius: 2em;
+	padding: 1em;
+	text-align: center;
+}
+
+.join_button2 {
+	font-size: 2em;
+	border-radius: 1em;
+	background-color: #3B4D3E;
+	color: #FFFFFF;
+	width: 230px;
+	margin: 0 auto;
+	border: none;
+	font-family: Arial;
+}
+
+/*>>>>>>>>>>>>>>>>>Home Page code  ------------> Ends*/
+
+
+/*>>>>>>>>>>>>>>>>>About Page code  ------------> Starts*/
+
 .about {
 	background-color: rgba(225, 225, 225, 0.8);
 	/*border-radius: 0 0 2em 2em;*/
 	padding: 2em;
-	margin: 0 27em;
-	width: 58em;
+	margin: 0 auto;
+	width: 835px;
 }
 
-.join_button {
-	float: left;
-	width: 214px;
-	margin-left: 69px;
-	margin-top: 355px;
-	background-color: rgba(189, 183, 183, 0.4);
-	border-radius: 2em;
-	padding: 1em;
-}
-/* ========= Light Box code ----> */
+/*>>>>>>>>>>>>>>>>>About Page code  ------------> Ends*/
 
-/*Jon us code>>>>>>>>>*/
+
+/*>>>>>>>>>>>>>>>>>Classes code ------------ > Start */
+#classes_one {
+  display: block;
+  text-align: center;
+  color: #262a2b;
+  padding: 60px 0px 50px;
+  text-transform: uppercase;
+}
+
+div #classes_two {
+  display: block;
+  text-align: center;
+  color: #262a2b;
+  padding: 60px 0px 50px;
+  text-transform: uppercase;
+}
+
+.ul_figures li{
+	display: inline-block;
+	margin:30px;
+	width: 300px;
+	font-family: Arial;
+}
+
+#classes_wrapper{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#h1_classes{
+	color:red;
+	font-size: 40px;
+	font-family:Arial;
+}
+
+.img_classes{
+		border-radius: 100px;
+}
+
+/*>>>>>>>>>>>>>>>>>Classes code ------------ > Ends */
+
+
+/*>>>>>>>>>>>>>>>>>Lightbox code  ------------> Starts*/
+
+/*>>>>>>>>>>>>>>>>>Lightbox code  ------------> Ends*/
+
+
+/*>>>>>>>>>>>>>>>>>Join Us code  ------------> Starts*/
+
 span{
 	margin-left: 200px;
 }
+
 #h1_join{
 	font-family: Arial;
 	width:700px;
 	margin-left: 150px;
 }
+
 #wrapper_join{
 	width: 800px;
 	margin:0 auto;
 }
+
 #div_form_join{
   width:360px;
   margin:0 auto;
@@ -273,8 +314,8 @@ span{
   height: 300px;
   background-color:rgba(253, 127, 120,.7); 
   float:right;
-
 }
+
 #form_join{
 	font-size: 20px;
 	font-weight: bolder;
@@ -283,6 +324,7 @@ span{
 	float: left;
 	padding:5px;
 }
+
 #form_join_two{
 	font-size: 20px;
 	font-weight: bolder;
@@ -291,6 +333,7 @@ span{
 	float: left;
 	padding:5px;
 }
+
 #form_join input {
 	width: 340px;
 	display:inline-block;
@@ -299,6 +342,7 @@ span{
 	text-align: center;
 	padding-top: 20px;
 }
+
 #form_join_two input {
 	display:inline-block;
 	float:right;	
@@ -306,13 +350,14 @@ span{
 	text-align: center;
 	width: 360px;
 	padding-top: 20px;
-
 }
+
 textarea{
 	width: 360px;
 	height: 100px;
 	padding: 5px;
 }
+
 .btn{
 	background-color: #780600;
 	border-radius: 10px;
@@ -329,27 +374,5 @@ textarea{
 	border: none;
 	/*color: #03324C;*/
 }
-}
 
-.join_button {
-	width: 100%;
-	margin: 10px auto;
-	padding: 15px;
-	text-align: center;
-	color: #03324C;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*>>>>>>>>>>>>>>>>>Join Us code  ------------> Ends*/

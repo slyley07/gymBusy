@@ -16,6 +16,7 @@ $(document).ready(function() {
 					borderRadius: 0
 				}, 500)
 		})
+	$("")
 })
 
 
