@@ -1,0 +1,121 @@
+body {
+	background-image: url("/images/bricks.jpg");
+	background-size: 120em 100em;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	width: 200px;
+	z-index: 10;
+	background-color: #C42A22;
+	float: left;
+	margin-left: 13em;
+	padding: 0.3em;
+	border-radius: 6em 6em 0 6em;
+	margin-top: 0;
+}
+
+#tag_line {
+	display: inline-block;
+	margin: 2.9em 0 0 0;
+	font-family: arial;
+	padding: 0.1em 0.5em 0 0.5em;
+	border-radius: 0 0.5em 0 0;
+	z-index: -1;
+	color: #DD3F48;
+	background-color: #780600;
+
+}
+
+.nav_bar {
+	margin: 0 auto;
+	width: 112em;
+}
+
+.scary {
+	width: 74em;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav {
+	font-family: arial;
+	margin: 0 18em;
+	background-color: #C42A22;
+	border-radius: 4em;
+	/*text-align: center;*/
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 32em;
+	font-weight: bold;
+	font-size: 2em;
+	z-index: 2;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0.64em 0.5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #780600;
+	padding: 0.55em;
+}
+
+.home {
+	background-image: url("/images/images_home/main_home.jpg");
+	width: 75em;
+	margin: 0 20em;
+	height: 54em;
+}
+
+.form_trial {
+	width: 14em;
+	font-size: 2em;
+	background-repeat: no-repeat;
+	background-color: rgba(189, 183, 183, 0.4);
+	padding: 1em;
+	position: relative;
+	top: 1em;
+	left: 2em;
+	font-family: arial;
+	border-radius: 2em;
+}
+
+.form_trial h1 {
+	margin: 0;
+}
+
+footer {
+	clear:both;
+	width: 100%;
+	text-align: center;
+}
+
+input[type="text"] {
+	font-size: 1em;
+}
+
+input[type="submit"] {
+	font-size: 1em;
+	border-radius: 1em;
+	background-color: #C42A22;
+	color: #FFFFFF;
+	width: 5em;
+	margin: 1em 4em 0em 4em;
+	border: 0;
+}
+
+.about {
+	background-color: rgba(225, 225, 225, 0.8);
+	/*border-radius: 0 0 2em 2em;*/
+	padding: 2em;
+	margin: 0 27em;
+	width: 58em;
+}

@@ -7,7 +7,11 @@
 
 		<meta charset="UTF-8">
 
+<<<<<<< HEAD
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
+=======
+		<link rel="stylesheet" type="text/css" href="/css/home.css">
+>>>>>>> 86d4b56d12bf2079b7c046f86d5c6ffd945dacf7
 
 		<script type="text/javascript" src="/jquery-2.1.3.js"></script>
 		
@@ -16,14 +20,18 @@
 	</head>
 
 	<body>
-		<h1 id='tag_line'> Our gym is you best partner!</h1>
+		<img src="/images/barbell_logo.png" class="logo">
+		<h1 id='tag_line'> 
+			Our gym is your best partner!
+		</h1>
+
 		<div class="nav_bar">
-			<!-- hash for nav_bar -->
-			<% navigation = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join"} %>
-			<!--loop for nav_bar -->
-			<% navigation.each do |key, value| %>
 			<nav>
 				<ul>
+					<!-- hash for nav_bar -->
+					<% navigation = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join"} %>
+					<!--loop for nav_bar -->
+					<% navigation.each do |key, value| %>
 					<li>
 						<!-- nav_bar linking with "value" -->
 						<a href=<%= value %>>
@@ -31,9 +39,9 @@
 							<%= key %>
 						</a>
 					</li>
+					<% end %>
 				</ul>
 			</nav>
-			<% end %>
 		</div>
 
 		<%= yield %>
