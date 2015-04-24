@@ -8,64 +8,85 @@
 		<meta charset="UTF-8">
 
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
-<<<<<<< HEAD
 
-		<link rel="stylesheet" type="text/css" href="/css/home.css">
-=======
->>>>>>> 3bf689f9ff975e54d33dbe1d0393ff431bf5a721
+		<script type="text/javascript" src="/javascript/jquery-2.1.3.js"></script>
 
-		<script type="text/javascript" src="/jquery-2.1.3.js"></script>
+		<script type="text/javascript" src="/javascript/jcolor.js"></script>
 		
-		<script type="text/javascript" src="/javascript/"></script>
+		<script type="text/javascript" src="/javascript/script.js"></script>
 
 	</head>
 
 	<body>
-		<img rel="lightbox"src="/images/barbell_logo.png" class="logo">
-		<h1 id='tag_line'> 
-			Our gym is your best partner!
-		</h1>
+		<div class="runner">
+			<img src="/images/barbell_logo.png" class="logo">
+			
+			<h1 id='tag_line'> 
+				Our gym is your best partner!
+			</h1>
 
-		<div class="nav_bar">
-			<nav>
-				<ul>
-					<!-- hash for nav_bar -->
-					<% navigation = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join"} %>
-					<!--loop for nav_bar -->
-					<% navigation.each do |key, value| %>
-					<li>
-						<!-- nav_bar linking with "value" -->
-						<a href=<%= value %>>
-							<!-- nav_bar naming with "key" -->
-							<%= key %>
-						</a>
-					</li>
-					<% end %>
-				</ul>
-			</nav>
+			<div class="nav_bar">
+				<nav>
+					<ul>
+						<!--loop for nav_bar -->
+						<% @nav.each do |key, value| %>
+						<li>
+							<!-- nav_bar linking with "value" -->
+							<a href=<%= value %> class="liA">
+								<!-- nav_bar naming with "key" -->
+								<%= key %>
+							</a>
+						</li>
+						<% end %>
+					</ul>
+				</nav>
+			</div>
 		</div>
 
 		<%= yield %>
 
 		<div>
-				<footer>
-					<div id="footer">
-				    	<div id="footer-wrapper">
-				  	        <ul>
-					        	<li><a href="#"> Careers </a></li>
-					        	
-								<li><a href="#"> News & Press </a></li>
-								<li><a href="#"> Privacy Policy </a></li>
-								
-				        	</ul>
-						</div> <!-- wrapper ends-->
-						<div class="icons">
-					           	<a href="https://twitter.com/" target="_blank"><img src="https://www.nasa.gov/sites/default/files/images/twitter-icon.png" width="48" height="48" alt="Twitter" /></a>
-								<a href="https://linkedin.com/" target="_blank"><img src="http://icons.iconarchive.com/icons/sicons/flat-shadow-social/128/linkedin-icon.png" width="48" height="48" alt="LinkedIn" /></a>
-								<a href="http://www.facebook.com" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png" width="48" height="48" alt="Facebook" /></a>
-						</div> <!-- end icons div -->	
-			   		</div>
-				</footer>
-	</div><!--end of div footer -->
+			<footer>
+				<div id="footer">
+			    	<div id="footer-wrapper">
+	  	        <ul>
+		        		<li>
+		        			<a href="#">
+		        				Careers
+		        			</a>
+		        		</li>
+		        	
+								<li>
+									<a href="#">
+										News & Press
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										Privacy Policy
+									</a>
+								</li>
+	        	</ul>
+					</div> 
+
+					<!-- wrapper ends-->
+					
+					<div class="icons">
+           	<a href="https://twitter.com/" target="_blank">
+           		<img src="https://www.nasa.gov/sites/default/files/images/twitter-icon.png" width="48" height="48" alt="Twitter" />
+           	</a>
+							
+						<a href="https://linkedin.com/" target="_blank"><img src="http://icons.iconarchive.com/icons/sicons/flat-shadow-social/128/linkedin-icon.png" width="48" height="48" alt="LinkedIn" />
+						</a>
+						
+						<a href="http://www.facebook.com" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png" width="48" height="48" alt="Facebook" />
+						</a>
+					</div> 
+					<!-- end icons div -->	
+		   	</div>
+			</footer>
+		</div>
+		<!--end of div footer -->
 	</body>
 <html>
