@@ -19,6 +19,7 @@ $(document).ready(function() {
 })
 
 
+
 // $(".finn").click(function(){
 // 		$(this).on("click")
 // 			.addClass("active")
@@ -77,6 +78,3 @@ $(document).ready(function() {
 // 			$("body").removeClass("noscroll")
 
 // 	})
-
-
-
