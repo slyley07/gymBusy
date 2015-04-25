@@ -36,6 +36,13 @@ get '/thanks' do
 	erb :thanks
 end
 
+get '/contact' do
+	@title="Contact!"
+	@nav = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join_us"}
+	@foot_nav = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join_us"}
+	erb :contact
+end
+
 post '/join_us' do
 	puts params.inspect
 	name = params["name"]
@@ -61,7 +68,7 @@ post '/join_us' do
 			redirect to('/thanks')
 end
 
-post '/join_us' do
+	post '/contact' do
 	puts params.inspect
 	email = params["email_user"]
 	user_message = params["message"]
