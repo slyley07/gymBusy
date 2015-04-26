@@ -5,6 +5,8 @@ get '/' do
 	@title= "Home"
 	@nav = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join_us"}
 	@foot_nav = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join_us"}
+	# @icon ={"/images/images/twitterlogo.png"=>"https://twitter.com/","/images/images/instalogo.jpg" => "https://instagram.com/"
+	# 	,"/images/images/facebooklogo.png" => "http://www.facebook.com"}
 	erb :home
 end
 
@@ -42,6 +44,7 @@ get '/contact' do
 	@foot_nav = {"Home" => "/", "About Us" => "/about", "Classes" => "/classes", "Join Us" => "/join_us"}
 	erb :contact
 end
+
 
 post '/join_us' do
 	puts params.inspect
