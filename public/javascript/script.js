@@ -101,10 +101,18 @@ $(document).ready(function() {
 	         $(".img1").css("opacity","1");
 
     });
- //     $("a1").click(function(){
-	// $("#inner3").animate( { 
- //   	   opacity: 0.5,  high:"100%", width: "100%" 
- //   	} , 2000 );
- //    })
+
+     $("#div_form_join").click(function(){
+	$("#div_form_join_two").animate( { 
+   	   opacity: 0.4
+   	} , 1000 );
+    })
+      $("#div_form_join_two").click(function(){
+	$("#div_form_join").animate( { 
+   	   opacity: 0.4
+   	} , 1000 );
+   	
+    })
+
 })
 
