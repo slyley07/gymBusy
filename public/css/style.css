@@ -1,6 +1,6 @@
 body{
 	margin:0px;
-	background-image: url("/images/images/building.jpg");
+	background-image: url("/images/images/building_resized.jpg");
 	background-size: 120em 110em;
 	background-repeat: no-repeat;
 	width: 100%;	
@@ -383,7 +383,7 @@ span{
 }
 
 #div_form_join_two{
-  width:380px;
+  width:365px;
   margin:0 auto;
   border: 5px solid #C42A22;
   font-family: Arial;
@@ -399,7 +399,6 @@ span{
 	font-family: Arial;
 	display: inline-block;
 	float: left;
-	padding:5px;
 }
 
 #form_join_two{
@@ -408,11 +407,11 @@ span{
 	font-family: Arial;
 	display: inline-block;
 	float: left;
-	padding:5px;
+	padding-left:30px;
 }
 
 #form_join input {
-	width: 340px;
+	width: 335px;
 	display:inline-block;
 	float:right;	
 	/*margin: 0;*/
@@ -424,13 +423,13 @@ span{
 	display:inline-block;
 	float:right;	
 	/*margin: 0;*/
-	text-align: center;
+	text-align: left;
 	width: 360px;
 	padding-top: 20px;
 }
 
 textarea{
-	width: 360px;
+	width: 350px;
 	height: 100px;
 	padding: 5px;
 }
