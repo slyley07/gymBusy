@@ -44,73 +44,102 @@
 
 		<%= yield %>
 
-		<div>
+		<!-- <div> -->
 			<footer>
-				<div id="footer">
-			    	<div id="footer-wrapper">
-			  	        <ul>
-			        		<li>
-			        			<a href="#">Careers</a>
-			        		</li>
-							<li>
-								<a href="#">News & Press</a>
-							</li>
-							<li>
-								<a href="#">Privacy Policy</a>
-							</li>
-	        			</ul>
-	        		
-	        		<div id="footer_right">
-		  	        <ul>
-		        		<li>Hours</li>
-						<li>Mon-Fri</li>
-						<li>5am-1am</li>
-						<li>Sat-Sun</li>
-						<li>8am-8pm</li>
-        			</ul>
-        			</div>
-					</div><!-- end of fotter -->
-
-					<!-- wrapper ends-->
-					
-					<div >
+				<div id="box-up">
+					<div class="foot_bar">
 						<h3>
 							Navigation
 						</h3>
 
-						<div class="foot_bar">
-								<ul>
-									<!--loop for footer nav -->
-									<% @foot_nav.each do |key, value| %>
-									<li>
-										<!-- footer nav linking with "value" -->
-										<a href=<%= value %>>
-											<!-- footer nav naming with "key" -->
-											<%= key %>
-										</a>
-									</li>
-									<% end %>
-								</ul>
-						</div>
-						<div class="icons">
+						<ul>
+							<!--loop for footer nav -->
+							<% @foot_nav.each do |key, value| %>
+							<li>
+								<!-- footer nav linking with "value" -->
+								<a href=<%= value %>>
+									<!-- footer nav naming with "key" -->
+									<%= key %>
+								</a>
+							</li>
+							<% end %>
+						</ul>
+					</div>
 
-			           	<a href="https://twitter.com/" target="_blank">
-			           		<img src="/images/images/twitterlogo.png" alt="Twitter"/>
-			           	</a>
-
+		    	<div id="footer-wrapper">
+  	        <ul>
+        			<li>
+        				<a href="#">
+        					Careers
+        				</a>
+        			</li>
 							
+							<li>
+								<a href="#">
+									News & Press
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									Privacy Policy
+								</a>
+							</li>
+        		</ul>
+        	</div>
+        		
+      		<div id="footer_right">
+  	        
+      			<h3>
+      				Hours
+      			</h3>
+  	        
+  	        <ul>
+        			<li>
+								Mon-Fri
+							</li>
+							
+							<li>
+								5am-1am
+							</li>
+							
+							<li>
+								Sat-Sun
+							</li>
+							
+							<li>
+								8am-8pm
+							</li>
+      			</ul>
+    			</div>
+					
+					<div class="icons">
+           	<a href="https://twitter.com/" target="_blank">
+           		<img src="/images/images/twitterlogo.png" alt="Twitter"/>
+           	</a>
+
 						<a href="https://instagram.com/" target="_blank">
 							<img src="/images/images/instalogo.jpg" alt="Instagramm"/>
 						</a>
-						
+							
 						<a href="http://www.facebook.com" target="_blank">
 							<img src="/images/images/facebooklogo.png" alt="Facebook"/>
 						</a>
-					</div> 
-					<!-- end icons div -->	
-				</div><!-- end of fotter _wrapper -->
-		   	</div>
+					</div>
+				</div> 
 			</footer>
+					<!-- end of fotter -->
+
+					<!-- wrapper ends-->
+					
+					<!-- <div > -->
+					
+					<!-- end icons div -->	
+					
+		<!-- </div> -->
+					<!-- end of fotter _wrapper -->
+					<!-- </div> -->
+		   	<!-- </div> -->
 		<!--end of div footer -->
 	</body>
 <html>
