@@ -28,9 +28,10 @@ body{
 
 .gym_name {
 	margin: 0 63px 15px 18px;
-	color: #592C2A;
-	font-family: sans-serif;
-	font-size: 3em;
+	color: rgba(174, 0, 0, 0.61);
+	text-shadow: 4px -3px 3px #5C6A7D;
+	font-family: Helvetica;
+	font-size: 88px;
 	width: 250px;
 	float: left;
 }
@@ -48,8 +49,11 @@ body{
 }
 
 .nav_bar {
+	width: 835px;
 	background-color: #C42A22;
 	float: left;
+	margin-top: -1px;
+	margin-left: 63px;
 }
 
 
@@ -72,6 +76,7 @@ nav ul {
 	max-width: 960px;
 	margin-bottom: 0;
 	background-color: #C42A22;
+
 }
 
 nav ul li {
@@ -245,7 +250,7 @@ footer ul li a:visited{
 	/*border-radius: 0 0 2em 2em;*/
 	padding: 2em;
 	margin: 0 auto;
-	width: 750px;
+  	width: 770px;
 }
 
 .ace {
@@ -273,14 +278,17 @@ div #classes_two {
 
 .ul_figures li{
 	display: inline-block;
-	margin:30px;
-	width: 300px;
-	font-family: Arial;
+	margin:18px;
+  	width: 224px;
+  	font-size: 12px;
+  	font-family: Arial;
 }
 
 #classes_wrapper{
 	text-align: center;
 	margin: 0 auto;
+	max-width: 834px;
+	background-color: rgba(225, 225, 225, 0.8);
 }
 
 #h1_classes{
@@ -325,7 +333,7 @@ figcaption{
 #wrapper_join{
 	width: 800px;
 	margin:0 auto;
-}
+  	margin: 68px 244px 0px;}
 
 #div_form_join{
   width:360px;
